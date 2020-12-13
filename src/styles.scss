@@ -1,0 +1,21 @@
+@import "reset";
+@import "fonts";
+@import "funcs";
+@import "vars";
+@import "animations";
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-size: to-vw(16);
+}
+
+#parallel {
+
+}
+
+@media (max-width: 768px) {
+    body, html {
+        font-size: to-vw(14, 375);
+    }
+};
