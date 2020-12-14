@@ -10,8 +10,15 @@ body, html {
     font-size: to-vw(16);
 }
 
-#parallel {
+#astrid {
+    background: $black;
+    height: 100%;
+    overflow: hidden;
 
+    svg {
+        &.fullwidth { width: 100%; }
+        &.fullheight { height: 100%; }
+    }
 }
 
 @media (max-width: 768px) {
