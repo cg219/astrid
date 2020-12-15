@@ -4,6 +4,8 @@
 
 function init() {
     window.addEventListener('resize', onWindowResize);
+
+    onWindowResize();
 }
 
 function onWindowResize(event) {
