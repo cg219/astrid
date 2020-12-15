@@ -20,38 +20,6 @@ body, html {
         &.fullheight { height: 100%; }
         &#desktop-svg { display: block; }
         &#mobile-svg { display: none; }
-
-        #l1 {
-            animation: line1-d 25s infinite ease-in-out;
-        }
-
-        #l2 {
-            animation: line2-d 20s infinite ease-in-out;
-        }
-
-        #l3 {
-            animation: line3-d 20s infinite 4s ease-in-out;
-        }
-
-        #l4 {
-            animation: line4-d 20s infinite ease-out;
-        }
-
-        #l5 {
-            animation: line5-d 15s infinite 3s ease-in-out;
-        }
-
-        #l6 {
-            animation: line6-d 10s infinite ease-out;
-        }
-
-        #l7 {
-            animation: line7-d 14s infinite ease-in-out;
-        }
-
-        #l8 {
-            animation: line8-d 20s infinite 5s ease-out;
-        }
     }
 }
 
@@ -64,46 +32,6 @@ body, html {
         svg {
             &#desktop-svg { display: none; }
             &#mobile-svg { display: block; }
-
-            #l1 {
-                animation: line1-m 20s infinite 3s ease-out;
-            }
-
-            #l2 {
-                animation: line2-m 20s infinite ease-in-out;
-            }
-
-            #l3 {
-                animation: line3-m 25s infinite 5s ease-out;
-            }
-
-            #l4 {
-                animation: line4-m 20s infinite ease-in-out;
-            }
-
-            #l5 {
-                animation: line5-m 20s infinite ease-in-out;
-            }
-
-            #l6 {
-                animation: line6-m 10s infinite ease-in-out;
-            }
-
-            #l7 {
-                animation: line7-m 20s infinite 1s ease-out;
-            }
-
-            #l8 {
-                animation: line8-m 15s infinite ease-in-out;
-            }
-
-            #l9 {
-                animation: line9-m 16s infinite ease-in-out;
-            }
-
-            #l10 {
-                animation: line10-m 20s infinite 5s ease-out;
-            }
         }
     }
 };
