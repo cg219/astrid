@@ -8,6 +8,7 @@ body, html {
     margin: 0;
     height: 100%;
     font-size: to-vw(16);
+    font-family: acumin-pro-condensed;
 }
 
 #astrid {
@@ -18,8 +19,36 @@ body, html {
     svg {
         &.fullwidth { width: 100%; }
         &.fullheight { height: 100%; }
-        &#desktop-svg { display: block; }
-        &#mobile-svg { display: none; }
+    }
+
+    #desktop-svg { display: block; }
+    #mobile-svg { display: none; }
+
+    .logo {
+        background-image: url('assets/logo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: to-rem(313);
+        height: to-rem(48);
+        position: absolute;
+        z-index: 5;
+        top: to-rem(60);
+        left: to-rem(60);
+    }
+
+    a {
+        position: absolute;
+        z-index: 5;
+        top: to-rem(60);
+        right: to-rem(60);
+        color: $white;
+        text-decoration: none;
+        font-weight: 200;
+        font-size: to-rem(16);
+        text-transform: uppercase;
+        letter-spacing: to-rem(3);
+
+        &:hover { text-decoration: underline; }
     }
 }
 
@@ -29,9 +58,21 @@ body, html {
     }
 
     #astrid {
-        svg {
-            &#desktop-svg { display: none; }
-            &#mobile-svg { display: block; }
+        #desktop-svg { display: none; }
+        #mobile-svg { display: block; }
+
+        .logo {
+            width: to-rem(219);
+            height: to-rem(32);
+            top: to-rem(30);
+            left: to-rem(30);
+        }
+
+        a {
+            top: to-rem(30);
+            right: to-rem(30);
+            font-size: to-rem(10);
+            letter-spacing: to-rem(3);
         }
     }
 };
