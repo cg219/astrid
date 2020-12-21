@@ -28,23 +28,23 @@ body, html {
         background-image: url('assets/logo.svg');
         background-size: contain;
         background-repeat: no-repeat;
-        width: to-rem(239);
-        height: to-rem(38);
+        width: min(#{to-rem(239)}, 238px);
+        height: min(#{to-rem(38)}, 38px);
         position: absolute;
         z-index: 5;
-        top: to-rem(60);
-        left: to-rem(60);
+        top: min(#{to-rem(60)}, 60px);
+        left: min(#{to-rem(60)}, 60px);
     }
 
     a {
         position: absolute;
         z-index: 5;
-        top: to-rem(60);
-        right: to-rem(60);
+        top: min(#{to-rem(60)}, 60px);
+        right: min(#{to-rem(60)}, 60px);
         color: $white;
         text-decoration: none;
         font-weight: 200;
-        font-size: to-rem(16);
+        font-size: min(#{to-rem(16)}, 16px);
         text-transform: uppercase;
         letter-spacing: to-rem(3);
 
@@ -62,16 +62,16 @@ body, html {
         #mobile-svg { display: block; }
 
         .logo {
-            width: to-rem(219);
-            height: to-rem(32);
-            top: to-rem(30);
-            left: to-rem(30);
+            width: min(#{to-rem(219)}, 219px);
+            height: min(#{to-rem(32)}, 32px);
+            top: min(#{to-rem(30)}, 30px);
+            left: min(#{to-rem(30)}, 30px);
         }
 
         a {
-            top: to-rem(30);
-            right: to-rem(30);
-            font-size: to-rem(10);
+            top: min(#{to-rem(30)}, 30px);
+            right: min(#{to-rem(30)}, 30px);
+            font-size: min(#{to-rem(10)}, 10px);
             letter-spacing: to-rem(3);
         }
     }
