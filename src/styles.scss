@@ -28,8 +28,8 @@ body, html {
         background-image: url('assets/logo.svg');
         background-size: contain;
         background-repeat: no-repeat;
-        width: min(#{to-rem(239)}, 238px);
-        height: min(#{to-rem(38)}, 38px);
+        width: min(#{to-rem(209)}, 209px);
+        height: min(#{to-rem(31)}, 31px);
         position: absolute;
         z-index: 5;
         top: min(#{to-rem(60)}, 60px);
@@ -62,7 +62,7 @@ body, html {
         #mobile-svg { display: block; }
 
         .logo {
-            width: min(#{to-rem(219)}, 219px);
+            width: min(#{to-rem(160)}, 160px);
             height: min(#{to-rem(32)}, 32px);
             top: min(#{to-rem(30)}, 30px);
             left: min(#{to-rem(30)}, 30px);
