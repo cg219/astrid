@@ -71,7 +71,7 @@ body, html {
         a {
             top: min(#{to-rem(30)}, 30px);
             right: min(#{to-rem(30)}, 30px);
-            font-size: min(#{to-rem(10)}, 10px);
+            font-size: min(#{to-rem(12)}, 12px);
             letter-spacing: to-rem(3);
         }
     }
